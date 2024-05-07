@@ -54,5 +54,17 @@
   {
     "name": "storage",
     "description": "denotes messages expressing concerns related to storage solutions (e.g., Amazon gp2) used in the deployment."
+  },
+  {
+    "name": "unrelated",
+    "description": "denotes messages that contain a keyword, but are not related to costs."
+  },
+  {
+    "name": "unknown",
+    "description": ""
+  },
+  {
+    "name": "repeat",
+    "description": "same as other commit message"
   }
 ]
