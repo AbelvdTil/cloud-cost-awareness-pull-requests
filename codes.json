@@ -60,11 +60,11 @@
     "description": "denotes messages that contain a keyword, but are not related to costs."
   },
   {
-    "name": "repeat",
-    "description": "same as other commit message"
-  },
-  {
     "name":"unsure",
     "description": "Please check later"
+  },
+  {
+    "name":"note",
+    "description": "interesting"
   }
 ]
