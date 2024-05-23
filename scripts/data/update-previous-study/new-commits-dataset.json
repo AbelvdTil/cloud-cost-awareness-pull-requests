@@ -129,8 +129,7 @@
             "message": "add hooks for cost_control"
         },
         "codes": [
-            "unsure",
-            "alert"
+            "unrelated"
         ]
     },
     {
@@ -211,7 +210,7 @@
             "message": "containerInsights just cost me $5"
         },
         "codes": [
-            "unsure"
+            "awareness"
         ]
     },
     {
@@ -221,7 +220,7 @@
             "message": "pay per request + delete prot"
         },
         "codes": [
-            "unsure"
+            "billing_mode"
         ]
     },
     {
@@ -231,7 +230,7 @@
             "message": "Autoscale crater instances\n\nCrater no longer requires each instance to be uniquely identified for\nassigned crates to not be duplicated across instances, which means that we can\nrelatively directly just copy the stateless configuration into more instances.\nThis commit adds a CPU-based autoscaler to the GCP managed instance group, and\nconfigures a systemd timer via the startup script which will update the\ncrater-agent on the instances.\n\nThis continues building upon the startup scripts rather than pursuing Ansible\nautomation (perhaps backed by Packer or so) because they're both pretty simple\nand it doesn't seem worth the fairly high complexity cost Ansible and Packer\nwould bring at this time.\n\nThe current autoscaling is just so that in theory we shutdown instances during\nidle periods (if we have them), but in practice that's likely more of an\nopportunistic nice to have -- eventually it might allow us to burst up to finish\nwork much faster and then go idle, but in practice it's not clear whether we\nwant slow, but constant, or fast, but sometimes unavailable until the next\nmonth. Something to continue thinking about."
         },
         "codes": [
-            "unsure"
+            "unrelated"
         ]
     },
     {
@@ -548,7 +547,7 @@
         "codes": [
             "saving",
             "policy",
-            "unsure"
+            "instance"
         ]
     },
     {
@@ -690,8 +689,9 @@
             "message": "feat: Modularize logging components (#781)\n\n* Initial commit\r\n\r\n* New inline Centralized Logging module\r\n\r\n* New logbucket destination module path\r\n\r\n* -Using new inline centralized logging module for log\r\n-Added logbucket as new logging destination\r\n\r\n* Fix missing logbucket name in doc\r\n\r\n* Add support to Cloud KMS CryptoKey\r\n\r\n* Fix typos\r\n\r\n* Reviewed module documentation\r\n\r\n* Fix readme log sink filter\r\n\r\n* Fix variable description and improve module documentation\r\n\r\n* Project id removed from Log Bucket name because it is not global unique as storage names\r\n\r\n* Added information about Log bucket free cost\r\n\r\n* Added link with additional information\r\n\r\nCo-authored-by: Daniel Andrade <dandrade@ciandt.com>\r\n\r\n* Added links with additional information about sink destinations\r\n\r\nCo-authored-by: Daniel Andrade <dandrade@ciandt.com>\r\n\r\n* Improve to clarify documentation\r\n\r\nCo-authored-by: Daniel Andrade <dandrade@ciandt.com>\r\n\r\n* Added link with additional info\r\n\r\n* Clean unused locals\r\n\r\n* Fix example codes\r\n\r\n* -Improve auto-generated names for sinks and target\r\n-Improve code readability using maps and lookup\r\n\r\n* Fix var description\r\n\r\nCo-authored-by: Bharath KKB <bharathkrishnakb@gmail.com>\r\n\r\n* Refactor all destinations in one module call\r\n\r\n* Duplicated validation Removed\r\n\r\n* Fix handle retention_policy object\r\n\r\n* Fix added logbucket default location\r\n\r\n* Fix test output values to not break module\r\n\r\n* Fix PR reviews\r\n\r\n* Fix outputs and remote state vars\r\n\r\nCo-authored-by: Daniel Andrade <dandrade@ciandt.com>\r\nCo-authored-by: Bharath KKB <bharathkrishnakb@gmail.com>"
         },
         "codes": [
-            "unrelated",
-            "unsure"
+            "awareness",
+            "storage",
+            "feature"
         ]
     },
     {
@@ -804,8 +804,6 @@
             "message": "use var for billing alert"
         },
         "codes": [
-            "unrelated",
-            "unsure",
             "alert"
         ]
     },
@@ -837,8 +835,7 @@
             "message": "Add AWS IAM user for cost-monitoring (#568)\n\nIssue: CLD-5557\r\n\r\nSigned-off-by: Stavros Foteinopoulos <stafot@gmail.com>"
         },
         "codes": [
-            "awareness",
-            "unsure"
+            "alert"
         ]
     },
     {
@@ -911,8 +908,7 @@
         },
         "codes": [
             "billing_mode",
-            "saving",
-            "unsure"
+            "storage"
         ]
     },
     {
@@ -1065,7 +1061,7 @@
         },
         "codes": [
             "awareness",
-            "unsure"
+            "storage"
         ]
     },
     {
@@ -1360,7 +1356,6 @@
             "message": "feature | updating cost management budget thresholds (#545)\n\nupdating cost management budget thresholds"
         },
         "codes": [
-            "unsure",
             "policy"
         ]
     },
@@ -1535,7 +1530,7 @@
             "message": "GDEV-342 add cost views and send mail actions"
         },
         "codes": [
-            "unsure"
+            "alert"
         ]
     },
     {
@@ -1597,7 +1592,7 @@
         },
         "codes": [
             "saving",
-            "unsure"
+            "feature"
         ]
     },
     {
@@ -1757,7 +1752,7 @@
             "message": "move cost-management to southamerica"
         },
         "codes": [
-            "unsure"
+            "unrelated"
         ]
     },
     {
@@ -2238,8 +2233,7 @@
             "message": "chore: delete billing alarms in Cloud Based Sensor (#179)\n\nRemove the account billing alarms as the anomaly detection has not\r\nbeen effective in identifying unexpected costs."
         },
         "codes": [
-            "alert",
-            "unsure"
+            "alert"
         ]
     },
     {
@@ -2371,9 +2365,7 @@
             "message": "Revert \"Add migrated AWS billing control policies. (#28)\" (#29)\n\nThis reverts commit b718d48a64d55d6f388bdfd2f4bb1bb11b7841c6."
         },
         "codes": [
-            "unrelated",
-            "repeat",
-            "unsure"
+            "policy"
         ]
     },
     {
@@ -2383,9 +2375,7 @@
             "message": "Revert \"Revert \"Add migrated AWS billing control policies. (#28)\" (#29)\" (#31)\n\nThis reverts commit 2340064e6da87831be29470f83db7f189ec0e93c."
         },
         "codes": [
-            "unrelated",
-            "repeat",
-            "unsure"
+            "policy"
         ]
     },
     {
@@ -2445,7 +2435,7 @@
             "message": "Set scrape+eval intervals to 1m and increase retention.\n\n1-minute sampling interval is perfectly adequate and allows us to retain\nmore history while making efficient use of resources."
         },
         "codes": [
-            "unsure"
+            "unrelated"
         ]
     },
     {
@@ -2684,5 +2674,157 @@
         "codes": [
             "unrelated"
         ]
+    },
+    {
+        "type": "commit",
+        "url": "https://github.com/guilhermerenew/infra-cost/commit/3fd0a8dcc75e713dc774e26cf8d1e630046f9e03",
+        "content": {
+            "message": "updated env for infracost accessement :rocket: (#15)\n\n* updated env for infracost accessement :rocket:\r\n* updated database instance_class\r\n* testing\r\n* gcp files!\r\n* GCP automate forced checks!\r\n* workflow super updated! :rocket:\r\n* trash cash file\r\n* based update\r\n* gcp \u00e9 lindo demais\r\n* principal path duurrr\r\n* adjustment envs!\r\n* revert: adjustment envs!\r\n* mano namoral\r\n* update yaml trigger\r\n* :rocket: yaml update!\r\n* saved pulled!\r\n* increased tests mdffffff\r\n* 2 maquinas!\r\n* update infracost version action\r\n* refix: update infracost version action :rocket:\r\n* fix config for workflow!\r\n* fix config for workflow!\r\n* documentation config\r\n* documentation config updated\r\n* main.tf updated (na saga que a trigger agora de certo! )\r\n* Update infracost.yml\r\n* :rocket: updated infracost.yml\r\n* hook update values!\r\n* path for value!\r\n* update values!\r\n* kodiak added in repo!"
+        },
+        "codes": ["alert"]
+    },
+    {
+        "type": "commit",
+        "url": "https://github.com/oracle-quickstart/oci-cis-landingzone-quickstart/commit/637cb3a63b469402f88b16f84609558dfc973d06",
+        "content": {
+            "message": "review: Completed Exadata Admin and cost admin policies"
+        },
+        "codes": ["unrelated"]
+    },
+    {
+        "type": "commit",
+        "url": "https://github.com/nce/k8s-hard-way/commit/d283384fad313ba1fa96e748d9849b8795819203",
+        "content": {
+            "message": "Update Infracost Setup with a lot of readonly permissions"
+        },
+        "codes": ["alert"]
+    },
+    {
+        "type": "commit",
+        "url": "https://github.com/GlueOps/terraform-gcp-organization-bootstrap/commit/8ded50f5c6774f47a3b3f229002832728c9877a0",
+        "content": {
+            "message": "feat: parameterize gcp_billing_account_name"
+        },
+        "codes": ["unrelated"]
+    },
+    {
+        "type": "commit",
+        "url": "https://github.com/tlc-pack/ci-terraform/commit/af285dd17beb9c35ea6339b3b9f43d6b166b5411",
+        "content": {
+            "message": "Add ARM-SMALL instance type\n\nSame as in #24 this adds `r6g.large` instances under the\n`ARM-SMALL` label so we can start testing and using those in CI (5x\ncheaper than `m6g.4xlarge`). If that works well we can convert some\nusages over, and if not we can remove this autoscaling group."
+        },
+        "codes": ["saving", "instance"]
+    },
+    {
+        "type": "commit",
+        "url": "https://github.com/cloudposse/terraform-spacelift-cloud-infrastructure-automation/commit/f1ad51c1ee8b96d7a60c23dbe49ccd5a3439a3dc",
+        "content": {
+            "message": "Add Infracost (#82)\n\n* Add infracost_enabled\r\n\r\nCo-authored-by: cloudpossebot <11232728+cloudpossebot@users.noreply.github.com>"
+        },
+        "codes": ["alert"]
+    },
+    {
+        "type": "commit",
+        "url": "https://github.com/binbashar/le-tf-infra-aws/commit/0204157bd5c00aca7dc74ef1555dda071c1d6e28",
+        "content": {
+            "message": "testing commit to validate infracost integration"
+        },
+        "codes": ["unrelated"]
+    },
+    {
+        "type": "commit",
+        "url": "https://github.com/binbashar/le-tf-infra-aws/commit/8845a574417ee211ab22bcb4e6c1041d1dad2aed",
+        "content": {
+            "message": "infracost workflow update + ec2 size to get cost changes"
+        },
+        "codes": ["unrelated"]
+    },
+    {
+        "type": "commit",
+        "url": "https://github.com/binbashar/le-tf-infra-aws/commit/88790579f1252d0bc23f2c75aea065edcfde8fa9",
+        "content": {
+            "message": "generating change on ec2 type for infracost diff"
+        },
+        "codes": ["unrelated"]
+    },
+    {
+        "type": "commit",
+        "url": "https://github.com/binbashar/le-tf-infra-aws/commit/f916275443e4dcf02c32d1765de1f7b1841c1536",
+        "content": {
+            "message": "updating ec2 type to re-test infracost ci"
+        },
+        "codes": ["unrelated"]
+    },
+    {
+        "type": "commit",
+        "url": "https://github.com/binbashar/le-tf-infra-aws/commit/10cf13515c722708cfacb8f22ca9b05abca67505",
+        "content": {
+            "message": "adding shared/us-east-1/tools-vpn-server to infracost config and updating ec2 size to test"
+        },
+        "codes": ["unrelated"]
+    },
+    {
+        "type": "commit",
+        "url": "https://github.com/binbashar/le-tf-infra-aws/commit/de1d1fbdc47a48292457efe310339cd83211ae38",
+        "content": {
+            "message": "renaming layer to test infracost config compatibility"
+        },
+        "codes": ["unrelated"]
+    },
+    {
+        "type": "commit",
+        "url": "https://github.com/binbashar/le-tf-infra-aws/commit/bd37e3ea2ba2b54e6f94df43d138a252d208d449",
+        "content": {
+            "message": "rolling back folder naming update + adding quotes to infracost path config"
+        },
+        "codes": ["unrelated"]
+    },
+    {
+        "type": "commit",
+        "url": "https://github.com/OmniTeqSource/terraform-aws-iam/commit/cec7a35cb222231baa0b7fcf4aff6ca83f80ae55",
+        "content": {
+            "message": "Add billing groups (#12)\n\n* Add billing groups\r\n\r\n* Update tf validate workflow"
+        },
+        "codes": ["unrelated"]
+    },
+    {
+        "type": "commit",
+        "url": "https://github.com/SiMDE-Projects/terraform/commit/9562e7ec1bd90dcd4ccd39e68ceb3aa748e40bd7",
+        "content": {
+            "message": "Added Nasser C. to Payutc team"
+        },
+        "codes": ["unrelated"]
+    },
+    {
+        "type": "commit",
+        "url": "https://github.com/VikeSec/CTF-Infrastructure/commit/776d8dfa860f95f2016ebccb13337f9dd4da6b31",
+        "content": {
+            "message": "[TF] Terraform module organization (#37)\n\n* Initial test on tf modules\r\n* Update workflows\r\n* CI setup fix\r\n* Change to infra module\r\n* Variables structure\r\n* Change infracost dir"
+        },
+        "codes": ["unrelated"]
+    },
+    {
+        "type": "commit",
+        "url": "https://github.com/stephengrier/my-infra/commit/608ccb7425096642b0fb1c48153c23ac7e7c4305",
+        "content": {
+            "message": "Remove service_discovery.tf\n\nThe aws_service_discovery resources were never used. The route53 zone is\ncosting money so remove it."
+        },
+        "codes": ["saving"]
+    },
+    {
+        "type": "commit",
+        "url": "https://github.com/cyrus-mc/tf-module-eks/commit/6663a69e71992bd676a3fb85d88842519396228f",
+        "content": {
+            "message": "DEVOPS-3011 Retroactively Populate EKS OIDC Thumbprint List (#10)\n\n* DEVOPS-3011 Add eks `sha1_fingerprint` for oidc.\r\n\r\n* DEVOPS-3011 Assert that `sha1_fingerprint` in expected thumbprint_list `references`; `./run-test.sh` successful!\r\n\r\nCo-authored-by: billyf_dat <billy.fisher@dat.com>"
+        },
+        "codes": ["unrelated"]
+    },
+    {
+        "type": "commit",
+        "url": "https://github.com/cyrus-mc/tf-module-eks/commit/41c437248d640079c58f30edc7b5c766addba154",
+        "content": {
+            "message": "DEVOPS-3011 EKS Output `identity_provider_url` (#11)\n\n* DEVOPS-3011 Validated infrastructure-main EKS_canary change yields `No changes. Your infrastructure matches the configuration` for `data.terraform_remote_state.eks.outputs.identity_provider_url`!\r\n\r\n* DEVOPS-3011 Bumped MINOR.\r\n\r\n* DEVOPS-3011 Add unit test for expected `identity_provider_url` with a successful `./run-test.sh`. Switch to simplified profile based creds rather than sts based.\r\n\r\nCo-authored-by: billyf_dat <billy.fisher@dat.com>"
+        },
+        "codes": ["unrelated"]
     }
 ]
