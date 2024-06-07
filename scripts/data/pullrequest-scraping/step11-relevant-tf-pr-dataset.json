@@ -12,7 +12,9 @@
         },
         "codes": [
             "saving",
-            "instance"
+            "instance",
+            "change",
+            "location-title"
         ]
     },
     {
@@ -31,7 +33,9 @@
         },
         "codes": [
             "awareness",
-            "storage"
+            "storage",
+            "change",
+            "location-body"
         ]
     },
     {
@@ -50,7 +54,9 @@
             ]
         },
         "codes": [
-            "alert"
+            "alert",
+            "change",
+            "location-title"
         ]
     },
     {
@@ -67,8 +73,7 @@
             ]
         },
         "codes": [
-            "awareness",
-            "feature"
+            "unrelated"
         ]
     },
     {
@@ -86,7 +91,9 @@
             ]
         },
         "codes": [
-            "alert"
+            "alert",
+            "change",
+            "location-body"
         ]
     },
     {
@@ -102,7 +109,10 @@
         },
         "codes": [
             "awareness",
-            "instance"
+            "instance",
+            "change",
+            "RAM",
+            "location-body"
         ]
     },
     {
@@ -118,7 +128,10 @@
         },
         "codes": [
             "saving",
-            "storage"
+            "storage",
+            "policy-lifecycle",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -143,7 +156,9 @@
         },
         "codes": [
             "saving",
-            "storage"
+            "storage",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -162,7 +177,9 @@
         },
         "codes": [
             "awareness",
-            "increase"
+            "increase",
+            "change",
+            "location-body"
         ]
     },
     {
@@ -179,7 +196,8 @@
         "codes": [
             "awareness",
             "storage",
-            "increase"
+            "increase",
+            "location-body"
         ]
     },
     {
@@ -199,7 +217,9 @@
             ]
         },
         "codes": [
-            "saving"
+            "saving",
+            "change",
+            "location-comments"
         ]
     },
     {
@@ -218,7 +238,9 @@
         "codes": [
             "saving",
             "storage",
-            "awareness"
+            "awareness",
+            "change",
+            "location-body"
         ]
     },
     {
@@ -234,7 +256,9 @@
         },
         "codes": [
             "saving",
-            "storage"
+            "storage",
+            "location-title",
+            "change"
         ]
     },
     {
@@ -262,7 +286,9 @@
         "codes": [
             "awareness",
             "storage",
-            "increase"
+            "increase",
+            "change",
+            "location-body"
         ]
     },
     {
@@ -284,9 +310,7 @@
             ]
         },
         "codes": [
-            "saving",
-            "cluster",
-            "instance"
+            "unrelated"
         ]
     },
     {
@@ -308,7 +332,9 @@
         },
         "codes": [
             "instance",
-            "saving"
+            "saving",
+            "change",
+            "location-body"
         ]
     },
     {
@@ -326,7 +352,9 @@
         },
         "codes": [
             "saving",
-            "storage"
+            "storage",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -348,7 +376,10 @@
         "codes": [
             "provider",
             "saving",
-            "networking"
+            "networking",
+            "vpn",
+            "change",
+            "location-body"
         ]
     },
     {
@@ -365,7 +396,9 @@
         "codes": [
             "instance",
             "awareness",
-            "feature-ec2"
+            "feature-ec2",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -383,7 +416,9 @@
         },
         "codes": [
             "saving",
-            "instance"
+            "instance",
+            "change",
+            "location-body"
         ]
     },
     {
@@ -403,7 +438,10 @@
         },
         "codes": [
             "saving",
-            "storage"
+            "storage",
+            "location-title",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -426,7 +464,9 @@
         },
         "codes": [
             "saving",
-            "instance"
+            "instance",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -444,7 +484,9 @@
         },
         "codes": [
             "awareness",
-            "instance"
+            "instance",
+            "change",
+            "location-body"
         ]
     },
     {
@@ -470,7 +512,9 @@
         "codes": [
             "awareness",
             "feature",
-            "instance"
+            "instance",
+            "change",
+            "location-body"
         ]
     },
     {
@@ -488,7 +532,11 @@
         },
         "codes": [
             "instance",
-            "saving"
+            "saving",
+            "ram",
+            "cpu",
+            "change",
+            "location-body"
         ]
     },
     {
@@ -509,7 +557,11 @@
         },
         "codes": [
             "instance",
-            "awareness"
+            "awareness",
+            "ram",
+            "cpu",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -525,7 +577,9 @@
         },
         "codes": [
             "awareness",
-            "storage"
+            "storage",
+            "change",
+            "location-body"
         ]
     },
     {
@@ -544,7 +598,9 @@
         },
         "codes": [
             "saving",
-            "billing_mode"
+            "billing_mode",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -575,7 +631,9 @@
         },
         "codes": [
             "feature",
-            "awareness"
+            "awareness",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -596,7 +654,11 @@
         "codes": [
             "awareness",
             "increase",
-            "feature"
+            "feature",
+            "ram",
+            "change",
+            "location-body"
+
         ]
     },
     {
@@ -660,7 +722,9 @@
             "provider",
             "storage",
             "billing_mode",
-            "feature-lambda"
+            "feature-lambda",
+            "location-comments",
+            "test"
         ]
     },
     {
@@ -683,7 +747,10 @@
         "codes": [
             "saving",
             "feature-redis",
-            "instance"
+            "instance",
+            "ram",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -699,7 +766,8 @@
         },
         "codes": [
             "awareness",
-            "feature-lambda"
+            "feature-lambda",
+            "location-title"
         ]
     },
     {
@@ -716,7 +784,9 @@
         "codes": [
             "instance",
             "saving",
-            "cluster"
+            "cluster",
+            "change",
+            "location-body"
         ]
     },
     {
@@ -731,7 +801,9 @@
             ]
         },
         "codes": [
-            "alert"
+            "alert",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -749,7 +821,9 @@
         },
         "codes": [
             "increase",
-            "networking"
+            "networking",
+            "change",
+            "location-body"
         ]
     },
     {
@@ -771,7 +845,9 @@
         },
         "codes": [
             "saving",
-            "provider"
+            "provider",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -829,7 +905,9 @@
         },
         "codes": [
             "instance",
-            "saving"
+            "saving",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -858,7 +936,9 @@
         },
         "codes": [
             "storage",
-            "saving"
+            "saving",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -876,7 +956,10 @@
         },
         "codes": [
             "instance",
-            "saving"
+            "saving",
+            "location-title",
+            "ram",
+            "change"
         ]
     },
     {
@@ -902,7 +985,9 @@
         },
         "codes": [
             "storage",
-            "awareness"
+            "awareness",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -918,7 +1003,9 @@
         },
         "codes": [
             "billing_mode",
-            "storage"
+            "storage",
+            "location-title",
+            "change"
         ]
     },
     {
@@ -945,7 +1032,9 @@
             ]
         },
         "codes": [
-            "awareness"
+            "awareness",
+            "change",
+            "location-comments"
         ]
     },
     {
@@ -962,7 +1051,9 @@
             ]
         },
         "codes": [
-            "alert"
+            "alert",
+            "change",
+            "location-title"
         ]
     },
     {
@@ -980,7 +1071,9 @@
             ]
         },
         "codes": [
-            "alert"
+            "alert",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -1000,7 +1093,9 @@
         },
         "codes": [
             "provider",
-            "saving"
+            "saving",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -1022,7 +1117,9 @@
         "codes": [
             "saving",
             "storage",
-            "feature-logging"
+            "feature-logging",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -1044,7 +1141,9 @@
         "codes": [
             "awareness",
             "storage",
-            "feature-efs"
+            "feature-efs",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -1063,7 +1162,9 @@
         "codes": [
             "provider",
             "storage",
-            "saving"
+            "saving",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -1085,7 +1186,10 @@
         },
         "codes": [
             "saving",
-            "storage"
+            "storage",
+            "policy-lifecycle",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -1108,7 +1212,11 @@
         },
         "codes": [
             "saving",
-            "storage"
+            "storage",
+            "policy-lifecycle",
+            "location-body",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -1127,7 +1235,9 @@
         },
         "codes": [
             "awareness",
-            "storage"
+            "storage",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -1145,7 +1255,9 @@
         "codes": [
             "saving",
             "instance",
-            "feature-ec2"
+            "feature-ec2",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -1166,7 +1278,9 @@
             "awareness",
             "storage",
             "feature-efs",
-            "increase"
+            "increase",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -1185,7 +1299,10 @@
         },
         "codes": [
             "saving",
-            "networking"
+            "networking",
+            "nat",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -1205,7 +1322,9 @@
         "codes": [
             "storage",
             "saving",
-            "policy-lifecycle"
+            "policy-lifecycle",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -1222,7 +1341,9 @@
             ]
         },
         "codes": [
-            "saving"
+            "saving",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -1240,7 +1361,10 @@
         },
         "codes": [
             "storage",
-            "saving"
+            "saving",
+            "policy-lifecycle",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -1288,7 +1412,9 @@
             ]
         },
         "codes": [
-            "awareness"
+            "awareness",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -1303,7 +1429,9 @@
             ]
         },
         "codes": [
-            "alert"
+            "alert",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -1328,7 +1456,9 @@
         "codes": [
             "saving",
             "policy-scheduling",
-            "feature-ec2"
+            "feature-ec2",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -1347,7 +1477,10 @@
         },
         "codes": [
             "saving",
-            "networking"
+            "networking",
+            "nat",
+            "location-title",
+            "change"
         ]
     },
     {
@@ -1377,7 +1510,10 @@
         "codes": [
             "saving",
             "instance",
-            "feature-ec2"
+            "feature-ec2",
+            "location-body",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -1395,7 +1531,9 @@
             ]
         },
         "codes": [
-            "awareness"
+            "increase",
+            "change",
+            "location-body"
         ]
     },
     {
@@ -1417,7 +1555,7 @@
             ]
         },
         "codes": [
-            "provider"
+            "unrelated"
         ]
     },
     {
@@ -1440,7 +1578,9 @@
             "policy",
             "instance",
             "feature-ec2",
-            "feature-rds"
+            "feature-rds",
+            "location-title",
+            "change"
         ]
     },
     {
@@ -1461,7 +1601,9 @@
         "codes": [
             "awareness",
             "instance",
-            "feature-redis"
+            "feature-redis",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -1481,7 +1623,9 @@
         },
         "codes": [
             "saving",
-            "instance"
+            "instance",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -1543,7 +1687,11 @@
         "codes": [
             "saving",
             "networking",
-            "instance"
+            "nat",
+            "instance",
+            "location-body",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -1570,7 +1718,9 @@
         },
         "codes": [
             "saving",
-            "instance"
+            "instance",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -1593,7 +1743,9 @@
             "saving",
             "instance",
             "storage",
-            "feature-rds"
+            "feature-rds",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -1618,7 +1770,9 @@
             "awareness",
             "increase",
             "storage",
-            "feature-rds"
+            "feature-rds",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -1646,7 +1800,9 @@
             "awareness",
             "increase",
             "storage",
-            "feature-rds"
+            "feature-rds",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -1664,7 +1820,9 @@
             ]
         },
         "codes": [
-            "saving"
+            "saving",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -1683,7 +1841,8 @@
         "codes": [
             "awareness",
             "feature-lambda",
-            "increase"
+            "location-body",
+            "change"
         ]
     },
     {
@@ -1717,7 +1876,9 @@
         },
         "codes": [
             "cluster",
-            "awareness"
+            "awareness",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -1732,7 +1893,9 @@
             ]
         },
         "codes": [
-            "saving"
+            "saving",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -1752,7 +1915,9 @@
         },
         "codes": [
             "saving",
-            "storage"
+            "storage",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -1770,7 +1935,9 @@
             "saving",
             "instance",
             "storage",
-            "feature-ebs"
+            "feature-ebs",
+            "location-title",
+            "change"
         ]
     },
     {
@@ -1818,7 +1985,9 @@
         },
         "codes": [
             "awareness",
-            "storage"
+            "storage",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -1839,7 +2008,9 @@
         },
         "codes": [
             "alert",
-            "feature-lambda"
+            "feature-lambda",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -1859,7 +2030,9 @@
         },
         "codes": [
             "alert",
-            "feature-lambda"
+            "feature-lambda",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -1875,7 +2048,9 @@
         },
         "codes": [
             "saving",
-            "instance"
+            "instance",
+            "location-title",
+            "change"
         ]
     },
     {
@@ -1891,7 +2066,9 @@
         },
         "codes": [
             "instance",
-            "saving"
+            "saving",
+            "location-title",
+            "change"
         ]
     },
     {
@@ -1924,7 +2101,9 @@
         },
         "codes": [
             "awareness",
-            "storage"
+            "storage",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -1956,7 +2135,9 @@
         },
         "codes": [
             "awareness",
-            "area"
+            "area",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -2003,7 +2184,9 @@
         },
         "codes": [
             "area",
-            "awareness"
+            "awareness",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -2038,7 +2221,9 @@
         },
         "codes": [
             "awareness",
-            "storage"
+            "storage",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -2295,7 +2480,9 @@
         },
         "codes": [
             "awareness",
-            "cluster"
+            "cluster",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -2315,7 +2502,9 @@
             ]
         },
         "codes": [
-            "awareness"
+            "awareness",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -2380,7 +2569,10 @@
             ]
         },
         "codes": [
-            "awareness"
+            "awareness",
+            "cpu",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -2459,7 +2651,9 @@
         "codes": [
             "awareness",
             "storage",
-            "area-buckets"
+            "area-buckets",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -2483,7 +2677,9 @@
         },
         "codes": [
             "storage",
-            "awareness"
+            "awareness",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -2541,7 +2737,9 @@
         },
         "codes": [
             "awareness",
-            "cluster"
+            "cluster",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -2567,7 +2765,10 @@
         "codes": [
             "instance",
             "cluster",
-            "saving"
+            "saving",
+            "ram",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -2603,7 +2804,9 @@
         },
         "codes": [
             "awareness",
-            "cluster"
+            "cluster",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -2622,7 +2825,9 @@
             ]
         },
         "codes": [
-            "awareness"
+            "awareness",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -2640,7 +2845,9 @@
         },
         "codes": [
             "saving",
-            "networking"
+            "networking",
+            "location-body",
+            "test"
         ]
     },
     {
@@ -2658,7 +2865,9 @@
         "codes": [
             "awareness",
             "instance",
-            "feature-ec2"
+            "feature-ec2",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -2675,7 +2884,10 @@
         "codes": [
             "awareness",
             "networking",
-            "alert"
+            "alert",
+            "nat",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -2699,7 +2911,9 @@
         "codes": [
             "saving",
             "storage",
-            "policy-lifecycle"
+            "policy-lifecycle",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -2725,7 +2939,9 @@
             "saving",
             "instance",
             "cluster",
-            "feature-logging"
+            "feature-logging",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -2745,7 +2961,10 @@
         },
         "codes": [
             "saving",
-            "networking"
+            "networking",
+            "nat",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -2762,7 +2981,10 @@
         "codes": [
             "awareness",
             "instance",
-            "cluster"
+            "cluster",
+            "ram",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -2779,7 +3001,9 @@
         "codes": [
             "saving",
             "storage",
-            "policy-lifecycle"
+            "policy-lifecycle",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -2795,7 +3019,9 @@
         },
         "codes": [
             "storage",
-            "saving"
+            "saving",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -2816,7 +3042,10 @@
             ]
         },
         "codes": [
-            "alert"
+            "alert",
+            "location-body",
+            "location-title",
+            "change"
         ]
     },
     {
@@ -2832,7 +3061,9 @@
         },
         "codes": [
             "saving",
-            "instance"
+            "instance",
+            "location-title",
+            "change"
         ]
     },
     {
@@ -2852,7 +3083,9 @@
             "saving",
             "storage",
             "feature-ebs",
-            "feature-efs"
+            "feature-efs",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -2871,7 +3104,9 @@
             ]
         },
         "codes": [
-            "saving"
+            "saving",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -2890,7 +3125,9 @@
         },
         "codes": [
             "saving",
-            "instance"
+            "instance",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -2910,7 +3147,10 @@
             "instance",
             "feature-ebs",
             "awareness",
-            "increase"
+            "increase",
+            "ram",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -2930,7 +3170,9 @@
         },
         "codes": [
             "saving",
-            "instance"
+            "instance",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -2973,7 +3215,9 @@
             ]
         },
         "codes": [
-            "awareness"
+            "awareness",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -2991,7 +3235,9 @@
         },
         "codes": [
             "billing_mode",
-            "storage"
+            "storage",
+            "location-title",
+            "change"
         ]
     },
     {
@@ -3011,7 +3257,9 @@
         "codes": [
             "saving",
             "instance",
-            "feature-ecs"
+            "feature-ecs",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -3031,7 +3279,9 @@
         },
         "codes": [
             "saving",
-            "instance"
+            "instance",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -3060,7 +3310,9 @@
         },
         "codes": [
             "provider",
-            "awareness"
+            "awareness",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -3087,7 +3339,9 @@
         },
         "codes": [
             "awareness",
-            "billing_mode"
+            "billing_mode",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -3107,7 +3361,9 @@
         },
         "codes": [
             "cluster",
-            "saving"
+            "saving",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -3124,7 +3380,9 @@
             ]
         },
         "codes": [
-            "alert"
+            "alert",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -3143,7 +3401,9 @@
         "codes": [
             "saving",
             "instance",
-            "feature-redis"
+            "feature-redis",
+            "location-title",
+            "change"
         ]
     },
     {
@@ -3161,7 +3421,9 @@
         },
         "codes": [
             "awareness",
-            "feature-rds"
+            "feature-rds",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -3179,7 +3441,9 @@
             ]
         },
         "codes": [
-            "alert"
+            "alert",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -3197,7 +3461,9 @@
         },
         "codes": [
             "instance",
-            "saving"
+            "saving",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -3224,7 +3490,9 @@
         "codes": [
             "instance",
             "awareness",
-            "storage"
+            "storage",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -3243,7 +3511,9 @@
         "codes": [
             "saving",
             "instance",
-            "feature-redis"
+            "feature-redis",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -3260,7 +3530,9 @@
         "codes": [
             "instance",
             "saving",
-            "feature-redis"
+            "feature-redis",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -3277,7 +3549,9 @@
         "codes": [
             "saving",
             "billing_mode",
-            "feature-rds"
+            "feature-rds",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -3296,7 +3570,9 @@
             ]
         },
         "codes": [
-            "alert"
+            "alert",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -3321,7 +3597,9 @@
         "codes": [
             "awareness",
             "instance",
-            "feature-redis"
+            "feature-redis",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -3336,7 +3614,9 @@
             ]
         },
         "codes": [
-            "saving"
+            "saving",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -3352,7 +3632,9 @@
         },
         "codes": [
             "billing_mode",
-            "storage"
+            "storage",
+            "location-title",
+            "change"
         ]
     },
     {
@@ -3370,7 +3652,9 @@
         },
         "codes": [
             "awareness",
-            "feature-rds"
+            "feature-rds",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -3387,7 +3671,9 @@
         "codes": [
             "alert",
             "feature-redis",
-            "instance"
+            "instance",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -3405,7 +3691,9 @@
         },
         "codes": [
             "saving",
-            "instance"
+            "instance",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -3426,7 +3714,9 @@
         "codes": [
             "awareness",
             "instance",
-            "storage"
+            "storage",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -3444,7 +3734,9 @@
         },
         "codes": [
             "saving",
-            "instance"
+            "instance",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -3460,7 +3752,9 @@
         },
         "codes": [
             "saving",
-            "instance"
+            "instance",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -3477,7 +3771,9 @@
         "codes": [
             "instance",
             "storage",
-            "saving"
+            "saving",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -3496,7 +3792,10 @@
         "codes": [
             "cluster",
             "saving",
-            "feature-ecs"
+            "feature-ecs",
+            "cpu",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -3514,7 +3813,9 @@
             "saving",
             "instance",
             "feature-ec2",
-            "feature-ecs"
+            "feature-ecs",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -3532,7 +3833,9 @@
         },
         "codes": [
             "awareness",
-            "feature-backup"
+            "feature-backup",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -3592,7 +3895,9 @@
         "codes": [
             "increase",
             "storage",
-            "awareness"
+            "awareness",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -3608,7 +3913,9 @@
         },
         "codes": [
             "saving",
-            "instance"
+            "instance",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -3639,7 +3946,9 @@
         "codes": [
             "saving",
             "instance",
-            "storage"
+            "storage",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -3654,7 +3963,9 @@
             ]
         },
         "codes": [
-            "saving"
+            "saving",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -3671,7 +3982,10 @@
         "codes": [
             "cluster",
             "saving",
-            "instance"
+            "instance",
+            "location-body",
+            "location-title",
+            "change"
         ]
     },
     {
@@ -3694,7 +4008,9 @@
             ]
         },
         "codes": [
-            "alert"
+            "alert",
+            "location-title",
+            "change"
         ]
     },
     {
@@ -3710,7 +4026,9 @@
         },
         "codes": [
             "increase",
-            "feature-lambda"
+            "feature-lambda",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -3737,7 +4055,10 @@
         },
         "codes": [
             "increase",
-            "instance"
+            "instance",
+            "cpu",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -3777,7 +4098,9 @@
         },
         "codes": [
             "awareness",
-            "instance"
+            "instance",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -3803,7 +4126,9 @@
         },
         "codes": [
             "awareness",
-            "increase"
+            "increase",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -3820,7 +4145,9 @@
         "codes": [
             "saving",
             "storage",
-            "feature-ebs"
+            "feature-ebs",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -3838,7 +4165,9 @@
         },
         "codes": [
             "increase",
-            "instance"
+            "instance",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -3855,7 +4184,9 @@
         "codes": [
             "saving",
             "instance",
-            "feature-rds"
+            "feature-rds",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -3873,7 +4204,10 @@
         "codes": [
             "increase",
             "awareness",
-            "feature-lambda"
+            "feature-lambda",
+            "ram",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -3895,7 +4229,9 @@
         },
         "codes": [
             "saving",
-            "storage"
+            "storage",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -3911,7 +4247,10 @@
         },
         "codes": [
             "increase",
-            "instance"
+            "instance",
+            "cpu",
+            "location-body",
+            "test"
         ]
     },
     {
@@ -3928,7 +4267,10 @@
         },
         "codes": [
             "saving",
-            "feature-lambda"
+            "feature-lambda",
+            "location-body",
+            "location-title",
+            "change"
         ]
     },
     {
@@ -3954,7 +4296,9 @@
             ]
         },
         "codes": [
-            "alert"
+            "alert",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -3970,7 +4314,9 @@
         },
         "codes": [
             "saving",
-            "instance"
+            "instance",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -3988,7 +4334,10 @@
             ]
         },
         "codes": [
-            "alert"
+            "alert",
+            "location-body",
+            "location-title",
+            "change"
         ]
     },
     {
@@ -4015,7 +4364,9 @@
         },
         "codes": [
             "saving",
-            "cluster"
+            "cluster",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -4031,7 +4382,10 @@
             ]
         },
         "codes": [
-            "alert"
+            "alert",
+            "location-body",
+            "location-title",
+            "change"
         ]
     },
     {
@@ -4055,7 +4409,10 @@
             ]
         },
         "codes": [
-            "alert"
+            "alert",
+            "location-body",
+            "location-title",
+            "change"
         ]
     },
     {
@@ -4086,7 +4443,10 @@
         },
         "codes": [
             "awareness",
-            "networking"
+            "networking",
+            "nat",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -4103,7 +4463,10 @@
         },
         "codes": [
             "saving",
-            "networking"
+            "networking",
+            "nat",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -4142,7 +4505,9 @@
         },
         "codes": [
             "awareness",
-            "storage"
+            "storage",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -4159,7 +4524,9 @@
             ]
         },
         "codes": [
-            "awareness"
+            "awareness",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -4180,7 +4547,10 @@
         },
         "codes": [
             "awareness",
-            "networking"
+            "networking",
+            "nat",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -4197,7 +4567,10 @@
         },
         "codes": [
             "saving",
-            "networking"
+            "networking",
+            "nat",
+            "location-title",
+            "change"
         ]
     },
     {
@@ -4219,7 +4592,9 @@
         },
         "codes": [
             "awareness",
-            "instance"
+            "instance",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -4239,7 +4614,9 @@
         "codes": [
             "instance",
             "saving",
-            "feature-eks"
+            "feature-eks",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -4257,7 +4634,9 @@
         "codes": [
             "instance",
             "saving",
-            "feature-redis"
+            "feature-redis",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -4275,7 +4654,9 @@
         },
         "codes": [
             "cluster",
-            "saving"
+            "saving",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -4295,7 +4676,9 @@
             ]
         },
         "codes": [
-            "alert"
+            "alert",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -4321,7 +4704,9 @@
             ]
         },
         "codes": [
-            "alert"
+            "alert",
+            "location-title",
+            "change"
         ]
     },
     {
@@ -4366,7 +4751,9 @@
             ]
         },
         "codes": [
-            "alert"
+            "alert",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -4384,8 +4771,7 @@
             ]
         },
         "codes": [
-            "saving",
-            "cluster"
+            "unrelated"
         ]
     },
     {
@@ -4403,7 +4789,10 @@
         },
         "codes": [
             "billing_mode",
-            "storage"
+            "storage",
+            "location-title",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -4421,7 +4810,9 @@
         },
         "codes": [
             "storage",
-            "saving"
+            "saving",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -4437,7 +4828,9 @@
         },
         "codes": [
             "saving",
-            "networking"
+            "networking",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -4454,7 +4847,9 @@
         "codes": [
             "saving",
             "instance",
-            "feature-ec2"
+            "feature-ec2",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -4470,7 +4865,10 @@
         },
         "codes": [
             "networking",
-            "awareness"
+            "awareness",
+            "nat",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -4495,7 +4893,9 @@
         },
         "codes": [
             "awareness",
-            "instance"
+            "instance",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -4526,7 +4926,9 @@
         "codes": [
             "saving",
             "storage",
-            "feature-logging"
+            "feature-logging",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -4545,7 +4947,9 @@
         },
         "codes": [
             "saving",
-            "feature-logging"
+            "feature-logging",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -4565,7 +4969,9 @@
         "codes": [
             "saving",
             "instance",
-            "feature-ec2"
+            "feature-ec2",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -4584,7 +4990,9 @@
         },
         "codes": [
             "saving",
-            "networking"
+            "networking",
+            "location-body",
+            "test"
         ]
     },
     {
@@ -4599,7 +5007,9 @@
             ]
         },
         "codes": [
-            "alert"
+            "alert",
+            "location-title",
+            "change"
         ]
     },
     {
@@ -4619,7 +5029,11 @@
         "codes": [
             "increase",
             "networking",
-            "feature-ecs"
+            "feature-ecs",
+            "nat",
+            "location-title",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -4645,7 +5059,10 @@
         "codes": [
             "saving",
             "networking",
-            "feature-ec2"
+            "feature-ec2",
+            "nat",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -4660,7 +5077,9 @@
             ]
         },
         "codes": [
-            "alert"
+            "alert",
+            "location-title",
+            "change"
         ]
     },
     {
@@ -4682,7 +5101,10 @@
         },
         "codes": [
             "cluster",
-            "saving"
+            "saving",
+            "location-comments",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -4703,7 +5125,10 @@
             ]
         },
         "codes": [
-            "alert"
+            "alert",
+            "location-title",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -4743,7 +5168,9 @@
             ]
         },
         "codes": [
-            "awareness"
+            "awareness",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -4759,7 +5186,9 @@
         },
         "codes": [
             "awareness",
-            "storage"
+            "storage",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -4778,7 +5207,9 @@
         "codes": [
             "saving",
             "networking",
-            "feature-ecs"
+            "feature-ecs",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -4797,7 +5228,9 @@
         },
         "codes": [
             "saving",
-            "storage"
+            "storage",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -4830,7 +5263,9 @@
         },
         "codes": [
             "storage",
-            "saving"
+            "saving",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -4854,7 +5289,9 @@
         },
         "codes": [
             "awareness",
-            "instance"
+            "instance",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -4873,7 +5310,9 @@
         },
         "codes": [
             "saving",
-            "instance"
+            "instance",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -4905,7 +5344,9 @@
         },
         "codes": [
             "awareness",
-            "instance"
+            "instance",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -4924,7 +5365,10 @@
             ]
         },
         "codes": [
-            "saving"
+            "saving",
+            "location-title",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -4948,7 +5392,9 @@
         },
         "codes": [
             "awareness",
-            "instance"
+            "instance",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -4981,7 +5427,9 @@
         },
         "codes": [
             "storage",
-            "saving"
+            "saving",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -5018,7 +5466,9 @@
         },
         "codes": [
             "saving",
-            "feature-logging"
+            "feature-logging",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -5038,7 +5488,9 @@
         "codes": [
             "saving",
             "storage",
-            "policy-lifecycle"
+            "policy-lifecycle",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -5055,7 +5507,9 @@
             ]
         },
         "codes": [
-            "alert"
+            "alert",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -5074,7 +5528,9 @@
             "storage",
             "cluster",
             "feature-redis",
-            "saving"
+            "saving",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -5097,7 +5553,9 @@
         },
         "codes": [
             "awareness",
-            "cluster"
+            "cluster",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -5115,7 +5573,9 @@
         "codes": [
             "saving",
             "feature-logging",
-            "storage"
+            "storage",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -5141,7 +5601,9 @@
             "instance",
             "cluster",
             "awareness",
-            "feature-redis"
+            "feature-redis",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -5161,7 +5623,9 @@
         "codes": [
             "awareness",
             "feature-logging",
-            "storage"
+            "storage",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -5185,7 +5649,9 @@
         },
         "codes": [
             "awareness",
-            "cluster"
+            "cluster",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -5235,7 +5701,9 @@
             ]
         },
         "codes": [
-            "awareness"
+            "awareness",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -5256,7 +5724,9 @@
             ]
         },
         "codes": [
-            "alert"
+            "alert",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -5283,7 +5753,9 @@
             "instance",
             "cluster",
             "feature-ec2",
-            "feature-redis"
+            "feature-redis",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -5302,7 +5774,9 @@
         },
         "codes": [
             "saving",
-            "cluster"
+            "cluster",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -5327,7 +5801,9 @@
             ]
         },
         "codes": [
-            "alert"
+            "alert",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -5344,7 +5820,9 @@
         "codes": [
             "instance",
             "awareness",
-            "feature-redis"
+            "feature-redis",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -5362,7 +5840,9 @@
         },
         "codes": [
             "saving",
-            "feature-logging"
+            "feature-logging",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -5378,7 +5858,9 @@
         },
         "codes": [
             "saving",
-            "alert"
+            "alert",
+            "location-title",
+            "change"
         ]
     },
     {
@@ -5404,7 +5886,9 @@
             ]
         },
         "codes": [
-            "awareness"
+            "awareness",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -5420,7 +5904,9 @@
         },
         "codes": [
             "awareness",
-            "cluster"
+            "cluster",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -5437,7 +5923,9 @@
             ]
         },
         "codes": [
-            "saving"
+            "saving",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -5453,7 +5941,9 @@
         },
         "codes": [
             "cluster",
-            "awareness"
+            "awareness",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -5469,7 +5959,9 @@
         },
         "codes": [
             "saving",
-            "instance"
+            "instance",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -5487,7 +5979,9 @@
             "awareness",
             "saving",
             "instance",
-            "increase"
+            "increase",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -5505,7 +5999,9 @@
         },
         "codes": [
             "saving",
-            "instance"
+            "instance",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -5521,7 +6017,9 @@
         },
         "codes": [
             "saving",
-            "cluster"
+            "cluster",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -5537,7 +6035,9 @@
         },
         "codes": [
             "saving",
-            "cluster"
+            "cluster",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -5555,7 +6055,9 @@
             "awareness",
             "saving",
             "instance",
-            "increase"
+            "increase",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -5570,7 +6072,10 @@
             ]
         },
         "codes": [
-            "alert"
+            "alert",
+            "location-title",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -5585,7 +6090,9 @@
             ]
         },
         "codes": [
-            "alert"
+            "alert",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -5604,7 +6111,10 @@
         },
         "codes": [
             "increase",
-            "awareness"
+            "awareness",
+            "location-comments",
+            "location-body",
+            "test"
         ]
     },
     {
@@ -5619,7 +6129,10 @@
             ]
         },
         "codes": [
-            "alert"
+            "alert",
+            "location-title",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -5635,7 +6148,9 @@
         },
         "codes": [
             "storage",
-            "saving"
+            "saving",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -5666,7 +6181,9 @@
         },
         "codes": [
             "awareness",
-            "billing_mode"
+            "billing_mode",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -5685,7 +6202,9 @@
         },
         "codes": [
             "instance",
-            "saving"
+            "saving",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -5705,7 +6224,9 @@
         },
         "codes": [
             "awareness",
-            "instance"
+            "instance",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -5723,7 +6244,9 @@
         "codes": [
             "instance",
             "saving",
-            "feature-rds"
+            "feature-rds",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -5739,7 +6262,10 @@
         },
         "codes": [
             "saving",
-            "networking"
+            "networking",
+            "nat",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -5792,7 +6318,10 @@
         "codes": [
             "awareness",
             "networking",
-            "instance"
+            "nat",
+            "instance",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -5807,7 +6336,9 @@
             ]
         },
         "codes": [
-            "saving"
+            "saving",
+            "location-title",
+            "change"
         ]
     },
     {
@@ -5827,7 +6358,9 @@
             ]
         },
         "codes": [
-            "awareness"
+            "awareness",
+            "location-comments",
+            "change"
         ]
     },
     {
@@ -5843,7 +6376,9 @@
         },
         "codes": [
             "storage",
-            "saving"
+            "saving",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -5862,7 +6397,9 @@
         },
         "codes": [
             "storage",
-            "saving"
+            "saving",
+            "location-body",
+            "change"
         ]
     },
     {
@@ -5877,7 +6414,9 @@
             ]
         },
         "codes": [
-            "alert"
+            "alert",
+            "location-title",
+            "change"
         ]
     },
     {
@@ -5893,7 +6432,9 @@
         },
         "codes": [
             "awareness",
-            "cluster"
+            "cluster",
+            "location-title",
+            "change"
         ]
     },
     {
@@ -5908,7 +6449,9 @@
             ]
         },
         "codes": [
-            "awareness"
+            "awareness",
+            "location-title",
+            "test"
         ]
     },
     {
@@ -5947,7 +6490,10 @@
         "codes": [
             "saving",
             "storage",
-            "feature-ebs"
+            "feature-ebs",
+            "location-title",
+            "location-body",
+            "change"
         ]
     }
 ]

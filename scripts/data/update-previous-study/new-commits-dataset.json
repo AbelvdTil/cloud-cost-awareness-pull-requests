@@ -16,7 +16,8 @@
             "message": "Add Cost Explorer Create Report permission for Data Engineers"
         },
         "codes": [
-            "awareness"
+            "awareness",
+            "change"
         ]
     },
     {
@@ -37,7 +38,8 @@
         },
         "codes": [
             "saving",
-            "storage"
+            "storage",
+            "change"
         ]
     },
     {
@@ -68,7 +70,10 @@
         },
         "codes": [
             "saving",
-            "networking"
+            "networking",
+            "vpn",
+            "nat",
+            "change"
         ]
     },
     {
@@ -80,7 +85,8 @@
         "codes": [
             "storage",
             "saving",
-            "feature"
+            "feature",
+            "change"
         ]
     },
     {
@@ -122,7 +128,8 @@
         "codes": [
             "saving",
             "cluster",
-            "storage"
+            "storage",
+            "change"
         ]
     },
     {
@@ -153,7 +160,8 @@
         },
         "codes": [
             "saving",
-            "cluster"
+            "cluster",
+            "change"
         ]
     },
     {
@@ -213,7 +221,8 @@
             "message": "containerInsights just cost me $5"
         },
         "codes": [
-            "awareness"
+            "awareness",
+            "feature"
         ]
     },
     {
@@ -223,7 +232,8 @@
             "message": "pay per request + delete prot"
         },
         "codes": [
-            "billing_mode"
+            "billing_mode",
+            "change"
         ]
     },
     {
@@ -266,7 +276,8 @@
             "feature",
             "saving",
             "storage",
-            "networking"
+            "networking",
+            "change"
         ]
     },
     {
@@ -277,7 +288,8 @@
         },
         "codes": [
             "saving",
-            "feature"
+            "feature",
+            "change"
         ]
     },
     {
@@ -288,7 +300,8 @@
         },
         "codes": [
             "feature",
-            "saving"
+            "saving",
+            "change"
         ]
     },
     {
@@ -438,6 +451,8 @@
             "message": "chore(deps): update terraform aws to v5.43.0 (#280)\n\n[![Mend\nRenovate](https://app.renovatebot.com/images/banner.svg)](https://renovatebot.com)\n\nThis PR contains the following updates:\n\n| Package | Type | Update | Change |\n|---|---|---|---|\n| [aws](https://registry.terraform.io/providers/hashicorp/aws)\n([source](https://togithub.com/hashicorp/terraform-provider-aws)) |\nrequired_provider | minor | `5.42.0` -> `5.43.0` |\n\n---\n\n### Release Notes\n\n<details>\n<summary>hashicorp/terraform-provider-aws (aws)</summary>\n\n###\n[`v5.43.0`](https://togithub.com/hashicorp/terraform-provider-aws/blob/HEAD/CHANGELOG.md#5430-March-28-2024)\n\n[Compare\nSource](https://togithub.com/hashicorp/terraform-provider-aws/compare/v5.42.0...v5.43.0)\n\nFEATURES:\n\n- **New Data Source:** `aws_resourceexplorer2_search`\n([#&#8203;36560](https://togithub.com/hashicorp/terraform-provider-aws/issues/36560))\n- **New Data Source:** `aws_servicecatalogappregistry_application`\n([#&#8203;36596](https://togithub.com/hashicorp/terraform-provider-aws/issues/36596))\n- **New Resource:** `aws_cloudfrontkeyvaluestore_key`\n([#&#8203;36534](https://togithub.com/hashicorp/terraform-provider-aws/issues/36534))\n- **New Resource:** `aws_devopsguru_notification_channel`\n([#&#8203;36557](https://togithub.com/hashicorp/terraform-provider-aws/issues/36557))\n- **New Resource:** `aws_ec2_instance_metadata_defaults`\n([#&#8203;36589](https://togithub.com/hashicorp/terraform-provider-aws/issues/36589))\n- **New Resource:** `aws_lakeformation_resource_lf_tag`\n([#&#8203;36537](https://togithub.com/hashicorp/terraform-provider-aws/issues/36537))\n- **New Resource:** `aws_m2_application`\n([#&#8203;35399](https://togithub.com/hashicorp/terraform-provider-aws/issues/35399))\n- **New Resource:** `aws_m2_deployment`\n([#&#8203;35408](https://togithub.com/hashicorp/terraform-provider-aws/issues/35408))\n- **New Resource:** `aws_m2_environment`\n([#&#8203;35311](https://togithub.com/hashicorp/terraform-provider-aws/issues/35311))\n- **New Resource:** `aws_redshiftserverless_custom_domain_association`\n([#&#8203;35865](https://togithub.com/hashicorp/terraform-provider-aws/issues/35865))\n- **New Resource:** `aws_servicecatalogappregistry_application`\n([#&#8203;36277](https://togithub.com/hashicorp/terraform-provider-aws/issues/36277))\n\nENHANCEMENTS:\n\n- data-source/aws_cloudfront_function: Add\n`key_value_store_associations` attribute\n([#&#8203;36585](https://togithub.com/hashicorp/terraform-provider-aws/issues/36585))\n- data-source/aws_db_snapshot: Add `original_snapshot_create_time`\nattribute\n([#&#8203;36544](https://togithub.com/hashicorp/terraform-provider-aws/issues/36544))\n- resource/aws_cloudfront_function: Add `key_value_store_associations`\nargument\n([#&#8203;36585](https://togithub.com/hashicorp/terraform-provider-aws/issues/36585))\n- resource/aws_ec2\\_host: Add user configurable timeouts\n([#&#8203;36538](https://togithub.com/hashicorp/terraform-provider-aws/issues/36538))\n- resource/aws_glacier_vault_lock: Allow `policy` to have leading\nwhitespace\n([#&#8203;36597](https://togithub.com/hashicorp/terraform-provider-aws/issues/36597))\n- resource/aws_iam_group_policy: Allow `policy` to have leading\nwhitespace\n([#&#8203;36597](https://togithub.com/hashicorp/terraform-provider-aws/issues/36597))\n- resource/aws_iam_policy: Allow `policy` to have leading whitespace\n([#&#8203;36597](https://togithub.com/hashicorp/terraform-provider-aws/issues/36597))\n- resource/aws_iam_role: Allow `assume_role_policy` and\n`inline_policy.*.policy` to have leading whitespace\n([#&#8203;36597](https://togithub.com/hashicorp/terraform-provider-aws/issues/36597))\n- resource/aws_iam_role_policy: Allow `policy` to have leading\nwhitespace\n([#&#8203;36597](https://togithub.com/hashicorp/terraform-provider-aws/issues/36597))\n- resource/aws_iam_user_policy: Allow `policy` to have leading\nwhitespace\n([#&#8203;36597](https://togithub.com/hashicorp/terraform-provider-aws/issues/36597))\n- resource/aws_kinesisanalyticsv2\\_application: Add support for\n`FLINK-1_18` `runtime_environment` value\n([#&#8203;36562](https://togithub.com/hashicorp/terraform-provider-aws/issues/36562))\n- resource/aws_media_store_container_policy: Allow `policy` to have\nleading whitespace\n([#&#8203;36597](https://togithub.com/hashicorp/terraform-provider-aws/issues/36597))\n- resource/aws_ssoadmin_permission_set_inline_policy: Allow\n`inline_policy` to have leading whitespace\n([#&#8203;36597](https://togithub.com/hashicorp/terraform-provider-aws/issues/36597))\n- resource/aws_transfer_access: Allow `policy` to have leading\nwhitespace\n([#&#8203;36597](https://togithub.com/hashicorp/terraform-provider-aws/issues/36597))\n- resource/aws_transfer_user: Allow `policy` to have leading whitespace\n([#&#8203;36597](https://togithub.com/hashicorp/terraform-provider-aws/issues/36597))\n- resource/aws_vpc_ipam: Add `tier` argument\n([#&#8203;36504](https://togithub.com/hashicorp/terraform-provider-aws/issues/36504))\n\nBUG FIXES:\n\n- data-source/aws_cur_report_definition: Direct all API calls to the\n`us-east-1` endpoint as this is the only Region in which AWS Cost and\nUsage Reports is available\n([#&#8203;36540](https://togithub.com/hashicorp/terraform-provider-aws/issues/36540))\n- resource/aws_applicationinsights_application: Make `ACTIVE` a valid\ncreate target status\n([#&#8203;36615](https://togithub.com/hashicorp/terraform-provider-aws/issues/36615))\n- resource/aws_autoscaling_group: Don't attempt to remove scale-in\nprotection from instances that don't have the feature enabled\n([#&#8203;36586](https://togithub.com/hashicorp/terraform-provider-aws/issues/36586))\n- resource/aws_cur_report_definition: Direct all API calls to the\n`us-east-1` endpoint as this is the only Region in which AWS Cost and\nUsage Reports is available\n([#&#8203;36540](https://togithub.com/hashicorp/terraform-provider-aws/issues/36540))\n- resource/aws_elasticsearch_domain_policy: Handle delayed domain status\npropagation, preventing a `ValidationException`.\n([#&#8203;36592](https://togithub.com/hashicorp/terraform-provider-aws/issues/36592))\n- resource/aws_iam_instance_profile: Detect when the associated `role`\nno longer exists\n([#&#8203;34099](https://togithub.com/hashicorp/terraform-provider-aws/issues/34099))\n- resource/aws_instance: Replace an instance when an `instance_type`\nchange also requires an architecture change, such as x86\\_64 to arm64\n([#&#8203;36590](https://togithub.com/hashicorp/terraform-provider-aws/issues/36590))\n- resource/aws_opensearch_domain_policy: Handle delayed domain status\npropagation, preventing a `ValidationException`.\n([#&#8203;36592](https://togithub.com/hashicorp/terraform-provider-aws/issues/36592))\n- resource/aws_quicksight_dashboard: Fix failure when updating a\ndashboard takes a while\n([#&#8203;34227](https://togithub.com/hashicorp/terraform-provider-aws/issues/34227))\n- resource/aws_quicksight_template: Fix \"Invalid address to set\" errors\n([#&#8203;34227](https://togithub.com/hashicorp/terraform-provider-aws/issues/34227))\n- resource/aws_quicksight_template: Fix \"a number is required\" errors\nwhen state contains an empty string\n([#&#8203;34227](https://togithub.com/hashicorp/terraform-provider-aws/issues/34227))\n- resource/aws_redshift_cluster: Fix `InvalidParameterCombination`\nerrors when updating only `skip_final_snapshot`\n([#&#8203;36635](https://togithub.com/hashicorp/terraform-provider-aws/issues/36635))\n- resource/aws_route53\\_zone: Prevent re-creation when `name` casing\nchanges\n([#&#8203;36563](https://togithub.com/hashicorp/terraform-provider-aws/issues/36563))\n- resource/aws_secretsmanager_secret_version: Fix to handle versions\ndeleted out-of-band without raising an `InvalidRequestException`\n([#&#8203;36609](https://togithub.com/hashicorp/terraform-provider-aws/issues/36609))\n- resource/aws_ssm_parameter: force create a new SSM parameter when\n`data_type` is updated.\n([#&#8203;35960](https://togithub.com/hashicorp/terraform-provider-aws/issues/35960))\n\n</details>\n\n---\n\n### Configuration\n\n\ud83d\udcc5 **Schedule**: Branch creation - At any time (no schedule defined),\nAutomerge - At any time (no schedule defined).\n\n\ud83d\udea6 **Automerge**: Enabled.\n\n\u267b **Rebasing**: Whenever PR is behind base branch, or you tick the\nrebase/retry checkbox.\n\n\ud83d\udd15 **Ignore**: Close this PR and you won't be reminded about this update\nagain.\n\n---\n\n- [ ] <!-- rebase-check -->If you want to rebase/retry this PR, check\nthis box\n\n---\n\nThis PR has been generated by [Mend\nRenovate](https://www.mend.io/free-developer-tools/renovate/). View\nrepository job log\n[here](https://developer.mend.io/github/Hapag-Lloyd/terraform-aws-bastion-host-ssm).\n\n<!--renovate-debug:eyJjcmVhdGVkSW5WZXIiOiIzNy4yNjkuMiIsInVwZGF0ZWRJblZlciI6IjM3LjI2OS4yIiwidGFyZ2V0QnJhbmNoIjoibWFpbiJ9-->\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>"
         },
         "codes": [
+            "awareness",
+            "feature",
             "alert"
         ]
     },
@@ -459,7 +474,8 @@
         },
         "codes": [
             "saving",
-            "instance"
+            "instance",
+            "change"
         ]
     },
     {
@@ -540,7 +556,8 @@
         },
         "codes": [
             "cluster",
-            "saving"
+            "saving",
+            "change"
         ]
     },
     {
@@ -551,7 +568,8 @@
         },
         "codes": [
             "awareness",
-            "policy"
+            "policy",
+            "change"
         ]
     },
     {
@@ -654,7 +672,8 @@
             "saving",
             "increase",
             "billing_mode",
-            "instance"
+            "instance",
+            "change"
         ]
     },
     {
@@ -696,7 +715,8 @@
         "codes": [
             "awareness",
             "storage",
-            "feature"
+            "feature",
+            "change"
         ]
     },
     {
@@ -737,7 +757,8 @@
         },
         "codes": [
             "saving",
-            "instance"
+            "instance",
+            "change"
         ]
     },
     {
@@ -778,7 +799,8 @@
         },
         "codes": [
             "saving",
-            "feature"
+            "feature",
+            "change"
         ]
     },
     {
@@ -789,7 +811,8 @@
         },
         "codes": [
             "saving",
-            "feature"
+            "feature",
+            "change"
         ]
     },
     {
@@ -820,7 +843,8 @@
         },
         "codes": [
             "storage",
-            "saving"
+            "saving",
+            "change"
         ]
     },
     {
@@ -861,7 +885,8 @@
         },
         "codes": [
             "saving",
-            "instance"
+            "instance",
+            "change"
         ]
     },
     {
@@ -872,7 +897,8 @@
         },
         "codes": [
             "saving",
-            "instance"
+            "instance",
+            "change"
         ]
     },
     {
@@ -882,7 +908,8 @@
             "message": "Remove aws resources in abundant namespace\n\nThis is for cost saving, can be added back when testing modules"
         },
         "codes": [
-            "saving"
+            "saving",
+            "change"
         ]
     },
     {
@@ -913,7 +940,8 @@
         },
         "codes": [
             "billing_mode",
-            "storage"
+            "storage",
+            "change"
         ]
     },
     {
@@ -954,7 +982,8 @@
         },
         "codes": [
             "saving",
-            "instance"
+            "instance",
+            "change"
         ]
     },
     {
@@ -1045,7 +1074,8 @@
         },
         "codes": [
             "saving",
-            "feature"
+            "feature",
+            "change"
         ]
     },
     {
@@ -1066,7 +1096,8 @@
         },
         "codes": [
             "awareness",
-            "storage"
+            "storage",
+            "change"
         ]
     },
     {
@@ -1077,7 +1108,8 @@
         },
         "codes": [
             "saving",
-            "cluster"
+            "cluster",
+            "change"
         ]
     },
     {
@@ -1099,7 +1131,8 @@
         "codes": [
             "awareness",
             "feature",
-            "policy"
+            "policy",
+            "change"
         ]
     },
     {
@@ -1109,6 +1142,8 @@
             "message": "Cost & Usage only in us-east-1"
         },
         "codes": [
+            "awareness",
+            "feature",
             "alert"
         ]
     },
@@ -1249,7 +1284,8 @@
             "message": "Cost tuning (#37)\n\n* Update to latest aenode module (3.0.0)\r\n* Destroy next environment\r\n* Destroy integration_sync environment"
         },
         "codes": [
-            "saving"
+            "saving",
+            "change"
         ]
     },
     {
@@ -1260,7 +1296,8 @@
         },
         "codes": [
             "awareness",
-            "increase"
+            "increase",
+            "change"
         ]
     },
     {
@@ -1270,7 +1307,8 @@
             "message": "Add a repo policy to avoid ECR costs getting out-of-hand"
         },
         "codes": [
-            "policy"
+            "policy",
+            "change"
         ]
     },
     {
@@ -1281,7 +1319,9 @@
         },
         "codes": [
             "increase",
-            "feature"
+            "feature",
+            "memory",
+            "change"
         ]
     },
     {
@@ -1323,7 +1363,8 @@
         "codes": [
             "networking",
             "feature",
-            "saving"
+            "saving",
+            "change"
         ]
     },
     {
@@ -1333,7 +1374,8 @@
             "message": "Add FinOps tools (#492)\n\n* Grant SSO Devops role permissions on SecretsManager\r\n\r\n* Add kube-resource-report for cost optimization and fix externaldns chart repo\r\n\r\n* Add Cost Analyzer for FinOps\r\n\r\n* Add kube-resource-report for cost optimization and fix externaldns chart repo\r\n\r\n* Add Cost Analyzer for FinOps\r\n\r\n---------\r\n\r\nCo-authored-by: Exequiel Barrirero <exequielrafaela@users.noreply.github.com>"
         },
         "codes": [
-            "awareness"
+            "awareness",
+            "change"
         ]
     },
     {
@@ -1385,7 +1427,8 @@
         },
         "codes": [
             "saving",
-            "instance"
+            "instance",
+            "change"
         ]
     },
     {
@@ -1396,7 +1439,8 @@
         },
         "codes": [
             "saving",
-            "instance"
+            "instance",
+            "change"
         ]
     },
     {
@@ -1547,7 +1591,8 @@
         },
         "codes": [
             "feature",
-            "saving"
+            "saving",
+            "change"
         ]
     },
     {
@@ -1598,7 +1643,8 @@
         },
         "codes": [
             "saving",
-            "feature"
+            "feature",
+            "change"
         ]
     },
     {
@@ -1609,7 +1655,8 @@
         },
         "codes": [
             "policy",
-            "instance"
+            "instance",
+            "change"
         ]
     },
     {
@@ -1620,7 +1667,8 @@
         },
         "codes": [
             "policy",
-            "instance"
+            "instance",
+            "change"
         ]
     },
     {
@@ -2071,7 +2119,8 @@
         },
         "codes": [
             "awareness",
-            "storage"
+            "storage",
+            "change"
         ]
     },
     {
@@ -2251,7 +2300,8 @@
             "message": "Enable costly resources."
         },
         "codes": [
-            "increase"
+            "increase",
+            "change"
         ]
     },
     {
@@ -2272,7 +2322,8 @@
         },
         "codes": [
             "feature",
-            "saving"
+            "saving",
+            "change"
         ]
     },
     {
@@ -2283,7 +2334,8 @@
         },
         "codes": [
             "saving",
-            "feature"
+            "feature",
+            "change"
         ]
     },
     {
@@ -2455,7 +2507,8 @@
         "codes": [
             "storage",
             "feature",
-            "saving"
+            "saving",
+            "change"
         ]
     },
     {
@@ -2465,7 +2518,8 @@
             "message": "Stop scraping kube-apiserver.\n\nTurns out scraping the apiservers is surprisingly expensive and we're not\neven using any of those metrics, so let's ditch it. This should make the\nmonitoring we do care about a bit more robust. We don't run the\napiservers anyway; that's in Amazon-land and there are metrics in\nCloudWatch if we ever needed to look."
         },
         "codes": [
-            "saving"
+            "saving",
+            "change"
         ]
     },
     {
@@ -2477,7 +2531,8 @@
         "codes": [
             "instance",
             "increase",
-            "saving"
+            "saving",
+            "change"
         ]
     },
     {
@@ -2489,7 +2544,8 @@
         "codes": [
             "instance",
             "increase",
-            "saving"
+            "saving",
+            "change"
         ]
     },
     {
@@ -2590,7 +2646,8 @@
         },
         "codes": [
             "saving",
-            "instance"
+            "instance",
+            "change"
         ]
     },
     {
@@ -2601,7 +2658,8 @@
         },
         "codes": [
             "saving",
-            "instance"
+            "instance",
+            "change"
         ]
     },
     {
@@ -2732,6 +2790,8 @@
         },
         "codes": [
             "saving",
+            "awareness",
+            "test",
             "instance"
         ]
     },
@@ -2762,8 +2822,7 @@
             "message": "infracost workflow update + ec2 size to get cost changes"
         },
         "codes": [
-            "instance",
-            "awareness"
+            "unrelated"
         ]
     },
     {
@@ -2794,7 +2853,8 @@
         },
         "codes": [
             "alert",
-            "network"
+            "networking",
+            "vpn"
         ]
     },
     {
@@ -2855,7 +2915,8 @@
         },
         "codes": [
             "saving",
-            "domain"
+            "domain",
+            "change"
         ]
     },
     {
